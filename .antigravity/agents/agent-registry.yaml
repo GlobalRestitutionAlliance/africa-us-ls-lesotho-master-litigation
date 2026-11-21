@@ -1,12 +1,511 @@
 agents:
-- id: agent-icj-judgment-and-article-94-marshal
-  name: ICJ Judgment & Article 94 Marshal
-  role: International Court of Justice (ICJ) 1986 Judgment on the Merits Enforcement, UN Charter Article 94 Non-Compliance Sanctions & Restrictive Immunity Forfeiture Marshal
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-icj-judgment-and-article-94-marshal.yaml
-- id: agent-lesotho-canal-and-intervention-historian
-  name: Lesotho Canal & Intervention Historian
-  role: Historical Interventions Auditor, Bryan-Chamorro Treaty (1914) & CACJ Nullity Precedents, 1912–1933 Marine Occupation Customs Receivership & 1850s Mercenary Filibuster Disgorgement
-  status: ACTIVE
-  manifest_file: .antigravity/agents/agent-lesotho-canal-and-intervention-historian.yaml
-total_agents: 2
+  - id: agent_ls_001
+    name: Lesotho Agent 001
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_002
+    name: Lesotho Agent 002
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_003
+    name: Lesotho Agent 003
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_004
+    name: Lesotho Agent 004
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_005
+    name: Lesotho Agent 005
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_006
+    name: Lesotho Agent 006
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_007
+    name: Lesotho Agent 007
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_008
+    name: Lesotho Agent 008
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_009
+    name: Lesotho Agent 009
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_010
+    name: Lesotho Agent 010
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_011
+    name: Lesotho Agent 011
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_012
+    name: Lesotho Agent 012
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_013
+    name: Lesotho Agent 013
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_014
+    name: Lesotho Agent 014
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_015
+    name: Lesotho Agent 015
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_016
+    name: Lesotho Agent 016
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_017
+    name: Lesotho Agent 017
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_018
+    name: Lesotho Agent 018
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_019
+    name: Lesotho Agent 019
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_020
+    name: Lesotho Agent 020
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_021
+    name: Lesotho Agent 021
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_022
+    name: Lesotho Agent 022
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_023
+    name: Lesotho Agent 023
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_024
+    name: Lesotho Agent 024
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_025
+    name: Lesotho Agent 025
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_026
+    name: Lesotho Agent 026
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_027
+    name: Lesotho Agent 027
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_028
+    name: Lesotho Agent 028
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_029
+    name: Lesotho Agent 029
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_030
+    name: Lesotho Agent 030
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_031
+    name: Lesotho Agent 031
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_032
+    name: Lesotho Agent 032
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_033
+    name: Lesotho Agent 033
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_034
+    name: Lesotho Agent 034
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_035
+    name: Lesotho Agent 035
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_036
+    name: Lesotho Agent 036
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_037
+    name: Lesotho Agent 037
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_038
+    name: Lesotho Agent 038
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_039
+    name: Lesotho Agent 039
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_040
+    name: Lesotho Agent 040
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_041
+    name: Lesotho Agent 041
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_042
+    name: Lesotho Agent 042
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_043
+    name: Lesotho Agent 043
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_044
+    name: Lesotho Agent 044
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_045
+    name: Lesotho Agent 045
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_046
+    name: Lesotho Agent 046
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_047
+    name: Lesotho Agent 047
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_048
+    name: Lesotho Agent 048
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_049
+    name: Lesotho Agent 049
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_050
+    name: Lesotho Agent 050
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_051
+    name: Lesotho Agent 051
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_052
+    name: Lesotho Agent 052
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_053
+    name: Lesotho Agent 053
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_054
+    name: Lesotho Agent 054
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_055
+    name: Lesotho Agent 055
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_056
+    name: Lesotho Agent 056
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_057
+    name: Lesotho Agent 057
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_058
+    name: Lesotho Agent 058
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_059
+    name: Lesotho Agent 059
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_060
+    name: Lesotho Agent 060
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_061
+    name: Lesotho Agent 061
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_062
+    name: Lesotho Agent 062
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_063
+    name: Lesotho Agent 063
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_064
+    name: Lesotho Agent 064
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_065
+    name: Lesotho Agent 065
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_066
+    name: Lesotho Agent 066
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_067
+    name: Lesotho Agent 067
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_068
+    name: Lesotho Agent 068
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_069
+    name: Lesotho Agent 069
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_070
+    name: Lesotho Agent 070
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_071
+    name: Lesotho Agent 071
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_072
+    name: Lesotho Agent 072
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_073
+    name: Lesotho Agent 073
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_074
+    name: Lesotho Agent 074
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_075
+    name: Lesotho Agent 075
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_076
+    name: Lesotho Agent 076
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_077
+    name: Lesotho Agent 077
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_078
+    name: Lesotho Agent 078
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_079
+    name: Lesotho Agent 079
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_080
+    name: Lesotho Agent 080
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_081
+    name: Lesotho Agent 081
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_082
+    name: Lesotho Agent 082
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_083
+    name: Lesotho Agent 083
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_084
+    name: Lesotho Agent 084
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_085
+    name: Lesotho Agent 085
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_086
+    name: Lesotho Agent 086
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_087
+    name: Lesotho Agent 087
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_088
+    name: Lesotho Agent 088
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_089
+    name: Lesotho Agent 089
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_090
+    name: Lesotho Agent 090
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_091
+    name: Lesotho Agent 091
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_092
+    name: Lesotho Agent 092
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_093
+    name: Lesotho Agent 093
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_094
+    name: Lesotho Agent 094
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_095
+    name: Lesotho Agent 095
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_096
+    name: Lesotho Agent 096
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_097
+    name: Lesotho Agent 097
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_098
+    name: Lesotho Agent 098
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_099
+    name: Lesotho Agent 099
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_100
+    name: Lesotho Agent 100
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_101
+    name: Lesotho Agent 101
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_102
+    name: Lesotho Agent 102
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_103
+    name: Lesotho Agent 103
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_104
+    name: Lesotho Agent 104
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_105
+    name: Lesotho Agent 105
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_106
+    name: Lesotho Agent 106
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_107
+    name: Lesotho Agent 107
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_108
+    name: Lesotho Agent 108
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_109
+    name: Lesotho Agent 109
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_110
+    name: Lesotho Agent 110
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_111
+    name: Lesotho Agent 111
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_112
+    name: Lesotho Agent 112
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_113
+    name: Lesotho Agent 113
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_114
+    name: Lesotho Agent 114
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_115
+    name: Lesotho Agent 115
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_116
+    name: Lesotho Agent 116
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_117
+    name: Lesotho Agent 117
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_118
+    name: Lesotho Agent 118
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_119
+    name: Lesotho Agent 119
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_120
+    name: Lesotho Agent 120
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_121
+    name: Lesotho Agent 121
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_122
+    name: Lesotho Agent 122
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_123
+    name: Lesotho Agent 123
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_124
+    name: Lesotho Agent 124
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_125
+    name: Lesotho Agent 125
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_126
+    name: Lesotho Agent 126
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_127
+    name: Lesotho Agent 127
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_128
+    name: Lesotho Agent 128
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_129
+    name: Lesotho Agent 129
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_130
+    name: Lesotho Agent 130
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_131
+    name: Lesotho Agent 131
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_132
+    name: Lesotho Agent 132
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_133
+    name: Lesotho Agent 133
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_134
+    name: Lesotho Agent 134
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_135
+    name: Lesotho Agent 135
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_136
+    name: Lesotho Agent 136
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_137
+    name: Lesotho Agent 137
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_138
+    name: Lesotho Agent 138
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_139
+    name: Lesotho Agent 139
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_140
+    name: Lesotho Agent 140
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_141
+    name: Lesotho Agent 141
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_142
+    name: Lesotho Agent 142
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_143
+    name: Lesotho Agent 143
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_144
+    name: Lesotho Agent 144
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_145
+    name: Lesotho Agent 145
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_146
+    name: Lesotho Agent 146
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_147
+    name: Lesotho Agent 147
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_148
+    name: Lesotho Agent 148
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_149
+    name: Lesotho Agent 149
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_150
+    name: Lesotho Agent 150
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_151
+    name: Lesotho Agent 151
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_152
+    name: Lesotho Agent 152
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_153
+    name: Lesotho Agent 153
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_154
+    name: Lesotho Agent 154
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_155
+    name: Lesotho Agent 155
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_156
+    name: Lesotho Agent 156
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_157
+    name: Lesotho Agent 157
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_158
+    name: Lesotho Agent 158
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_159
+    name: Lesotho Agent 159
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_160
+    name: Lesotho Agent 160
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_161
+    name: Lesotho Agent 161
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_162
+    name: Lesotho Agent 162
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_163
+    name: Lesotho Agent 163
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_164
+    name: Lesotho Agent 164
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_165
+    name: Lesotho Agent 165
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_166
+    name: Lesotho Agent 166
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_167
+    name: Lesotho Agent 167
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_168
+    name: Lesotho Agent 168
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_169
+    name: Lesotho Agent 169
+    status: ACTIVE_SCAFFOLD
+  - id: agent_ls_170
+    name: Lesotho Agent 170
+    status: ACTIVE_SCAFFOLD
